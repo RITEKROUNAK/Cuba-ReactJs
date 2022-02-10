@@ -1,0 +1,82 @@
+[
+    {
+        "image": "product-table-1.png",
+        "details": "Red Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-2.png",
+        "product_name": "Pink Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "Out of Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-3.png",
+        "product_name": "Gray Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "Out of Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-4.png",
+        "product_name": "Green Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$20",
+        "stock": "Low Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-5.png",
+        "product_name": "Black Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$30",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-6.png",
+        "product_name": "White Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$40",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-7.png",
+        "product_name": "light Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-8.png",
+        "product_name": "Gliter Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-9.png",
+        "product_name": "Yellow Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    },
+    {
+        "image": "product-table-1.png",
+        "product_name": "Green Lipstick",
+        "product_desc": "Interchargebla lens Digital Camera with APS-C-X Trans CMOS Sens",
+        "amount": "$10",
+        "stock": "In Stock",
+        "start_date": "2011/4/25"
+    }
+]

@@ -1,0 +1,125 @@
+{
+  "name": "cuba-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://webiots.co.in/cuba/",
+  "dependencies": {
+    "@auth0/auth0-react": "^1.0.0",
+    "@fullcalendar/daygrid": "^5.1.0",
+    "@fullcalendar/interaction": "^5.1.0",
+    "@fullcalendar/react": "^5.1.0",
+    "@fullcalendar/timegrid": "^5.1.0",
+    "@lourenci/react-kanban": "^0.14.0",
+    "apexcharts": "^3.15.2",
+    "axios": "^0.20.0",
+    "body-scroll-lock": "^3.0.3",
+    "bootstrap-scss": "^4.5.0",
+    "chart.js": "^2.9.3",
+    "chartist": "^0.11.4",
+    "chartjs-plugin-datalabels": "^0.7.0",
+    "emoji-mart": "^3.0.0",
+    "feather-icons": "^4.28.0",
+    "firebase": "^7.15.5",
+    "knob": "^1.1.0",
+    "leaflet": "^1.6.0",
+    "node-sass": "^4.14.1",
+    "react-ace": "^9.1.1",
+    "react-apexcharts": "^1.3.6",
+    "react-big-calendar": "^0.26.0",
+    "react-bootstrap": "^1.1.1",
+    "react-bootstrap-typeahead": "^5.1.0",
+    "react-chartist": "^0.14.3",
+    "react-chartjs-2": "^2.9.0",
+    "react-ckeditor-component": "^1.1.0",
+    "react-clock": "^2.4.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-countdown": "^2.2.1",
+    "react-countup": "^4.3.3",
+    "react-data-table-component": "^6.9.6",
+    "react-datepicker": "^3.0.0",
+    "react-dragula": "^1.1.17",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-feather": "^2.0.8",
+    "react-google-charts": "^3.0.15",
+    "react-google-maps": "^9.4.5",
+    "react-hook-form": "^6.0.1",
+    "react-image-crop": "^8.6.4",
+    "react-image-lightbox": "^5.1.1",
+    "react-images-upload": "^1.2.8",
+    "react-input-range": "^1.3.0",
+    "react-leaflet": "^2.6.3",
+    "react-masonry-css": "^1.0.14",
+    "react-rating": "^2.0.5",
+    "react-ratings-declarative": "^3.4.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.1.2",
+    "react-scrollbar": "^0.5.6",
+    "react-simplemde-editor": "^4.1.0",
+    "react-slick": "^0.26.1",
+    "react-sparklines": "^1.7.0",
+    "react-stepzilla": "^6.0.2",
+    "react-switch-lang": "^1.0.2",
+    "react-times": "^3.1.12",
+    "react-to-print": "^2.9.0",
+    "react-toastify": "^6.0.8",
+    "react-transition-group": "^4.4.1",
+    "react-vertical-timeline-component": "^3.0.2",
+    "reactour": "^1.18.0",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.1.1",
+    "sweetalert2": "^9.15.2",
+    "world-map-geojson": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "react-dev-utils": "10.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "jsx-a11y"
+    ],
+    "rules": {
+      "no-whitespace-before-property": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "*-index.js"
+        ],
+        "rules": {
+          "no-unused-expressions": "off"
+        }
+      }
+    ],
+    "reportUnusedDisableDirectives": true,
+    "noInlineConfig": true
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

@@ -1,0 +1,407 @@
+/**=====================
+    Typography css start
+==========================**/
+//Custom css Start
+body {
+    font-size: $body-font-size;
+    overflow-x: hidden;
+    font-family: $font-rubik, $font-serif;
+    color: $theme-body-font-color;
+}
+
+ul {
+    padding-left: $ul-padding-left;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+* a {
+    color: var(--theme-deafult);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: var(--theme-deafult);
+    }
+}
+
+*.btn:focus {
+    box-shadow: $btn-focus-box-shadow !important;
+}
+
+p {
+    font-size: $paragraph-font-size;
+    line-height: $paragraph-line-height;
+    letter-spacing: $paragraph-letter-spacing;
+}
+
+code {
+    color: $code-tag-color !important;
+    background-color: $code-tag-bg-color;
+    padding: $code-tag-padding;
+    margin: $code-tag-margin;
+    border-radius: $code-tag-border-radious;
+}
+
+blockquote {
+    border-left: $blockquote-border;
+    padding: $blockquote-padding;
+
+    &.text-center {
+        border: none;
+        padding: $blockquote-padding;
+    }
+
+    &.text-right {
+        border-left: none;
+        border-right: $blockquote-border;
+        padding: $blockquote-padding;
+    }
+}
+
+:focus {
+    outline-color: $all-focus-outline-color;
+}
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+svg {
+    vertical-align: baseline;
+}
+
+input {
+    &:focus {
+        outline-color: $transparent-color;
+    }
+}
+
+label {
+    margin-bottom: .5rem;
+}
+
+.media-widgets {
+    .media-body {
+        margin-bottom: 30px;
+    }
+}
+
+//Custom css End
+
+//Typography css start
+.typography {
+
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        margin: 20px 0;
+        margin-top: 0;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    small {
+        padding-left: $small-tag-padding;
+        color: $small-tag-color;
+    }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    line-height: 1.2;
+}
+.h1 {
+    font-size: 2.5rem;
+}
+.h2 {
+    font-size: 2rem;
+}
+.h3 {
+    font-size: 1.75rem;
+}
+.h4 {
+    font-size: 1.5rem;
+}
+.h5 {
+    font-size: 1.25rem;
+}
+.h6 {
+    font-size: 1rem;
+}
+
+pre {
+    background-color: $pre-tag-bg-color;
+    padding: $pre-tag-padding;
+}
+
+
+//Typography css end
+.owl-theme {
+    .owl-dots {
+        .owl-dot {
+            span {
+                background: lighten($primary-color, 20%);
+            }
+
+            &.active,
+            &:hover {
+                span {
+                    background: var(--theme-deafult);
+                }
+            }
+        }
+    }
+
+    .owl-nav {
+        &.disabled {
+            &+.owl-dots {
+                margin-bottom: -10px;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+.click2edit {
+    &~.note-editor {
+        &.note-frame {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.note-editor {
+    &.note-frame {
+        border-color: $light-color;
+    }
+}
+
+.note-editor {
+    &.note-frame {
+        border-color: $light-color;
+    }
+}
+
+// modal page
+.modal {
+    .modal-body {
+        .card {
+            box-shadow: none !important;
+        }
+    }
+    .close {
+        font-weight: 400;
+    }
+}
+
+.modal-dialog {
+    .modal-content {
+        .modal-body {
+            p {
+                a {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+// index page notify
+.alert-theme {
+    button {
+        top: 33px !important;
+        right: 30px !important;
+        color: var(--theme-deafult);
+    }
+
+    span {
+        +span {
+            +span {
+                // border: 2px solid var(--theme-deafult);
+                background-color: lighten($primary-color, 40%);
+                color: var(--theme-deafult);
+                border-radius: 4px;
+                box-shadow: 0 2px 14px -3px rgba($black, 0.2);
+            }
+        }
+    }
+
+    i {
+        padding: 20px;
+        padding-right: 0 !important;
+        margin-right: 20px !important;
+    }
+
+    .progress {
+        margin-top: -2px !important;
+        height: 2px;
+
+        .progress-bar {
+            background-color: var(--theme-deafult);
+        }
+    }
+}
+
+.alert-copy {
+    border: 1px solid var(--theme-deafult);
+    line-height: 1;
+    display: inline-block;
+    width: 300px;
+    color: $white;
+    background-color: var(--theme-deafult);
+
+    .close {
+        box-shadow: none;
+        color: $white;
+        line-height: 1.4;
+        font-weight: 100;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.ace-editor {
+    height: 400px;
+    width: 100%;
+}
+
+.editor-toolbar {
+    width: 100% !important;
+}
+
+.CodeMirror {
+    top: 0 !important;
+}
+.CodeMirror-fullscreen {
+    top: 50px !important;
+    z-index: 9;
+}
+
+// rangeslider
+.irs-from,
+.irs-to,
+.irs-single {
+    background: var(--theme-deafult);
+
+    &:after {
+        border-top-color: var(--theme-deafult);
+    }
+}
+
+.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-bar,
+.irs-bar-edge {
+    background-color: var(--theme-deafult);
+}
+
+// sweetalert css
+.swal-button {
+    background-color: var(--theme-deafult);
+
+    &:active {
+        background-color: darken($primary-color, 5%);
+    }
+}
+
+.swal-button--cancel {
+    background-color: #EFEFEE !important;
+}
+
+.clipboaard-container {
+    h6 {
+        line-height: 1.6;
+    }
+}
+
+fieldset {
+    .bootstrap-touchspin-postfix,
+    .bootstrap-touchspin-prefix {
+        border-radius: 0;
+        padding: 0.4rem 0.75rem;
+    }
+    .input-group-prepend {
+        & ~ .form-control {
+            height: 39px;
+        }
+    }
+    .input-group-lg {
+        .input-group-prepend,
+        .input-group-append {
+            .btn {
+                padding: 0.8rem 1.75rem;
+            }
+        }
+    }
+}
+
+.f1 .f1-steps .f1-step .f1-step-icon {
+    padding: 12px;
+}
+
+.form-inline .form-group {
+    display: flex;
+}
+
+.input-group-text {
+    i {
+        line-height: 1.5;
+    }
+}
+
+// tap-top
+.tap-top {
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 5;
+	color: #fff;
+	background: var(--theme-deafult);
+	border: none;
+	padding: 7px;
+	box-shadow: 0 0 10px var(--theme-deafult);
+	opacity: 0.5;
+	transition: all 0.3s ease;
+  
+	&:hover {
+	  transition: all 0.3s ease;
+	  opacity: 1;
+	}
+  
+	svg {
+	  width: 20px;
+	}
+}
+
+/**=====================
+    Typography css Ends
+==========================**/

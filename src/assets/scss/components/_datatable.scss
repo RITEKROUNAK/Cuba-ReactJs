@@ -1,0 +1,127 @@
+/**=====================
+    30. Data-table CSS Start
+==========================**/
+.rdt_Table {
+  border: 1px solid rgba($black, 0.1);
+}
+.rdt_TableCol {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.rdt_TableHeader {
+  height: auto;
+  line-height: unset;
+  background: $transparent-color;
+  > div {
+    &:last-child {
+      background-color: rgba($primary-color, 0.05) !important;
+    }
+  }
+}
+
+.datatable-react {
+  .form-control,
+  .react-bootstrap-table {
+    margin-bottom: 30px;
+  }
+  .react-bootstrap-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    .table-bordered {
+      td,
+      th {
+        border-color: #ddd;
+      }
+    }
+    table {
+      tbody {
+        tr {
+          &:nth-child(odd) {
+            background-color: #f9f9f9;
+            td {
+              &:first-child {
+                background-color: #f6f6f6;
+              }
+            }
+            &:hover {
+              td {
+                background-color: #f6f6f6;
+              }
+            }
+          }
+          &:nth-child(even) {
+            td {
+              &:first-child {
+                background-color: #fafafa;
+              }
+            }
+            &:hover {
+              td {
+                background-color: #f6f6f6;
+                &:first-child {
+                  background-color: #eaeaea;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+div {
+  &.dt-button-background {
+    display: none !important;
+  }
+}
+.toolbar {
+  padding: 5px 15px;
+  background-color: var(--theme-deafult);
+  display: inline-block;
+  color: $white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+code {
+  &.option {
+    color: $danger-color !important;
+  }
+  &.api {
+    color: $success-color !important;
+  }
+}
+.product-table {
+  th {
+    &:last-child {
+      min-width: 120px;
+    }
+  }
+  h6 {
+    font-weight: 600;
+    color: $dark-color;
+  }
+}
+.support-table {
+  .rdt_TableHeader {
+    display: none;
+  }
+  .rdt_Table {
+    .rdt_TableBody {
+      .rdt_TableCell {
+        img {
+          border-radius: 100%;
+        }
+        &:nth-child(5) {
+          > div {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/**=====================
+     30. Data-table CSS Ends
+==========================**/

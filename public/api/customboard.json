@@ -1,0 +1,102 @@
+{
+    "customboard" : {
+        "lanes": [
+            {
+                "id": 10,
+                "title": "To Do (Item only in Working)",
+                "cards": [
+                    {
+                        "id": 11,
+                        "title":"Test Sidebar",
+                        "date":"24/7/20",
+                        "priority":"medium",
+                        "img":"user/3.jpg",
+                        "company":"Themeforest, australia",
+                        "rate":"+5",
+                        "customer_img1":"user/3.jpg",
+                        "customer_img2":"user/1.jpg",
+                        "customer_img3":"user/5.jpg",
+                        "bg_color":"bg-light-info"
+                    },
+                    {
+                        "id": 12,
+                        "title":"Dashboard issue",
+                        "date":"24/7/20",
+                        "priority":"Low",
+                        "img":"user/3.jpg",
+                        "company":"Pixelstrap, New york",
+                        "rate":"+5",
+                        "customer_img1":"user/3.jpg",
+                        "customer_img2":"user/1.jpg",
+                        "customer_img3":"user/5.jpg",
+                        "bg_color":"bg-light-info"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "title": "Working",
+                "cards": [
+                    {
+                        "id": 14,
+                        "title":"Test Sidebar",
+                        "date":"24/7/20",
+                        "priority":"Argent",
+                        "img":"user/3.jpg",
+                        "company":"Themeforest, australia",
+                        "rate":"+5",
+                        "customer_img1":"user/3.jpg",
+                        "customer_img2":"user/1.jpg",
+                        "customer_img3":"user/5.jpg",
+                        "bg_color":"bg-light-warning"
+                    },
+                    {
+                        "id": 15,
+                        "title":"Dashboard issue",
+                        "date":"24/7/20",
+                        "priority":"Low",
+                        "img":"user/3.jpg",
+                        "company":"Pixelstrap, New york",
+                        "rate":"+5",
+                        "customer_img1":"user/3.jpg",
+                        "customer_img2":"user/1.jpg",
+                        "customer_img3":"user/5.jpg",
+                        "bg_color":"bg-light-warning"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "title": "Done (Item only in Working)",
+                "cards": [
+                    {
+                        "id": 17,
+                        "title":"Test Sidebar",
+                        "date":"24/7/20",
+                        "priority":"Argent",
+                        "img":"user/3.jpg",
+                        "company":"Themeforest, australia",
+                        "rate":"+5",
+                        "customer_img1":"user/3.jpg",
+                        "customer_img2":"user/1.jpg",
+                        "customer_img3":"user/5.jpg",
+                        "bg_color":"bg-light-success"
+                    },
+                    {
+                        "id": 18,
+                        "title":"Dashboard issue",
+                        "date":"24/7/20",    
+                        "priority":"Low",
+                        "img":"user/3.jpg",
+                        "company":"Pixelstrap, New york",
+                        "rate":"+5",
+                        "customer_img1":"user/3.jpg",
+                        "customer_img2":"user/1.jpg",
+                        "customer_img3":"user/5.jpg",
+                        "bg_color":"bg-light-success"
+                    }
+                ]
+            }
+        ]
+    }
+}

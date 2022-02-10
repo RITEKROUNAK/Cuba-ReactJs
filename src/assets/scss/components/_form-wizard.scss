@@ -1,0 +1,66 @@
+/**=====================
+     48. Form Wizard CSS Start
+==========================**/
+
+ol {
+	display: flex;
+	&.progtrckr {
+		li {
+			width: 100%;
+			em {
+				display: none;
+			}
+			&.progtrckr-todo,
+			&.progtrckr-doing,
+			&.progtrckr-done {
+				&:before {
+					font-size: 20px !important;
+					width: 30px !important;
+					height: 30px !important;
+					line-height: 30px !important;
+				}
+			}
+		}
+	}
+}
+.multi-step {
+	position: relative;
+	.footer-buttons {
+		.btn-lg {
+			font-size: 14px;
+		}
+	}
+	.btnsubmit {
+		position: absolute;
+		bottom: -34px;
+		right: 15px;
+	}
+}
+
+@media (max-width: 485px) {
+	ol {
+		&.progtrckr {
+			li {
+				&:before {
+					bottom: -63px !important;
+				}
+				span {
+					padding: 0 !important;
+				}
+				&.progtrckr-todo,
+				&.progtrckr-doing,
+				&.progtrckr-done {
+					&:before {
+						font-size: 18px !important;
+						width: 20px !important;
+						height: 20px !important;
+						line-height: 20px !important;
+					}
+				}
+			}
+		}
+	}
+}
+/**=====================
+    48. Form Wizard CSS Ends
+==========================**/

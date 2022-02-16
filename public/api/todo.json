@@ -1,0 +1,42 @@
+[
+      {
+        "id": 0,
+        "title": "Weekly Bigbazar Shopping",
+        "status": "pending"
+      },
+      {
+        "id": 1,
+        "title": "Go Outside Picnic on Sunday",
+        "status": "pending"
+      },
+      {
+        "id": 2,
+        "title": "Write a blog post",
+        "status": "completed"
+      },
+      {
+        "id": 3,
+        "title": "Do the chicken dance",
+        "status": "pending"
+      },
+      {
+        "id": 4,
+        "title": "Pay the electricity bills",
+        "status": "pending"
+      },
+      {
+        "id": 5,
+        "title": "Make dinner reservation",
+        "status": "completed"
+      },
+      {
+        "id": 6,
+        "title": "Meeting with photographer",
+        "status": "pending"
+      },
+      {
+        "id": 7,
+        "title": "Birthday wish to best friend",
+        "status": "completed"
+      }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "card_bg":"user-card/1.jpg",
+        "avatar":"avtar/3.jpg",
+        "name" : "Mark Jecno",
+        "post" : "Manager",
+        "follower" : "9564",
+        "following" : "49",
+        "totalPost" : "96"
+    },
+    {
+        "card_bg":"user-card/2.jpg",
+        "avatar":"avtar/16.jpg",
+        "name" : "Johan Deo",
+        "post" : "Designer",
+        "follower" : "2578",
+        "following" : "26",
+        "totalPost" : "96"
+    },
+    {
+        "card_bg":"user-card/3.jpg",
+        "avatar":"avtar/11.jpg",
+        "name" : "Dev John",
+        "post" : "Devloper",
+        "follower" : "6545",
+        "following" : "91",
+        "totalPost" : "21"
+    },
+    {
+        "card_bg":"user-card/7.jpg",
+        "avatar":"avtar/16.jpg",
+        "name" : "Johan Deo",
+        "post" : "Designer",
+        "follower" : "2578",
+        "following" : "26",
+        "totalPost" : "96"
+    },
+    {
+        "card_bg":"user-card/5.jpg",
+        "avatar":"avtar/11.jpg",
+        "name" : "Dev John",
+        "post" : "Devloper",
+        "follower" : "6545",
+        "following" : "91",
+        "totalPost" : "21"
+    },
+    {
+        "card_bg":"user-card/6.jpg",
+        "avatar":"avtar/3.jpg",
+        "name" : "Mark Jecno",
+        "post" : "Manager",
+        "follower" : "9564",
+        "following" : "49",
+        "totalPost" : "96"
+    }
+
+]

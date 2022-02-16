@@ -1,0 +1,56 @@
+/**=====================
+     66. FullCalendar CSS Start
+==========================**/
+.rbc-toolbar {
+    button {
+        border: 1px solid var(--theme-deafult) !important;
+        font-size: 14px;
+        &:active,
+        &.rbc-active {
+            background-color: var(--theme-deafult) !important;
+            box-shadow: none !important;
+            color: $white !important;
+        }
+    }
+}
+.rbc-today {
+    background-color: rgba($primary-color, 0.1) !important;
+}
+.rbc-row-content {
+    z-index: 1 !important;
+}
+.rbc-header {
+    padding: 5px !important;
+}
+.rbc-month-view {
+    height: auto !important;
+}
+.rbc-event,
+.rbc-ellipsis,
+.rbc-event-label,
+.rbc-row-segment .rbc-event-content,
+.rbc-show-more {
+    background-color: var(--theme-deafult) !important;
+}
+// draggable calender
+#external-events {
+    background-color: $transparent-color !important;
+    overflow-y: auto !important;
+    padding: 10px !important;
+    width: 90%;
+}
+.fc-event,
+.fc-event-dot {
+    background-color: var(--theme-deafult) !important;
+    border-color: var(--theme-deafult) !important;
+    padding: 7px !important;
+    color: $white !important;
+}
+.fc-button-primary {
+    background-color: var(--theme-deafult) !important;
+    border-color: var(--theme-deafult) !important;
+}
+
+/**=====================
+    66. FullCalendar CSS End
+==========================**/

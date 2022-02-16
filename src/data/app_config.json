@@ -1,0 +1,17 @@
+{
+    "auth0" : {
+        "domain": "Your Auth Domain",
+        "clientID": "Your clientId",
+        "redirectUri": "Your callback URL"
+    },
+    "firebase" : {
+        "apiKey": "Your Api Key",
+        "authDomain":"Your AuthDomain",
+        "databaseURL": "Your Database URL",
+        "projectId": "Your ProjectId",
+        "storageBucket": "Your StorageBucket",
+        "messagingSenderId": "messagingSenderId",
+        "appId":"APP Id"
+    },
+    "jwt_token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvaG4iLCJwYXNzd29yZCI6IjEyMzQ1NiJ9.vPN0PhthyTuf9l3912NksmpzHXvWjZ7Nywhe22GK2zI"
+}
